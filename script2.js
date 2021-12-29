@@ -6,8 +6,4 @@ const findNames = (term, db) => {
     return matches.lendth > 3 ? matches.slice(0, 3) : matches;
 }
 
-const functionNoTested = (term) => {
-    return `Hello ${term}`;
-}
-
 module.exports = findNames;

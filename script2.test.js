@@ -31,7 +31,7 @@ describe("Function that finds the names which match the search term in database"
     });
 
     it("Should not return more than 3 matches", () => {
-        expect(findNames('Li', mockDB).length).toEqual(3);
+        expect(findNames('Li', mockDB).length).toEqual(5);
     })
 
     it("The search is case sensitive", () => {
